@@ -34,10 +34,11 @@ try:
 
 except ValueError:
     print("Invalid age. Please enter a number.")
-else:
 
-if age < 0 or age > 140
-    drinks = ("vodka", "tequila", "gin")
+
+else:
+    if age < 0 or age > 140
+        drinks = ("vodka", "tequila", "gin")
 
 elif age > 120:
         print("You are too old to play the awesome drinking game.")
@@ -50,4 +51,4 @@ elif (country == "USA" or country == "UAE") and age < 21
 
 else:
         print("You are an adult. You can play the awesome drinking game.")
-        print("Have some", random.choice(drinks), "and enjoy the game."
+        print("Have some", random.choice(drinks), "and enjoy the game.")
