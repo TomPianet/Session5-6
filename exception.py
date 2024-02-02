@@ -11,7 +11,15 @@ try:
     number = int(number)
     print(age / number)
 
-except:
+except ValueError:
     print("invalid age. Please enter a number")
 
+except ZeroDivisionError:
+    print("you cannot divide by zero")
+
+else:
+    print("no exceptions were raised")
+
+finally:
+    print("thank you for playing")
 
